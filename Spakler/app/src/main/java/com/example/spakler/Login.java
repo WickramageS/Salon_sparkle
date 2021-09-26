@@ -75,20 +75,26 @@ public class Login extends AppCompatActivity {
                                String userContact = snapshot.child(emailLogin).child("userContact").getValue(String.class);
                                String userEmail = snapshot.child(emailLogin).child("userEmail").getValue(String.class);
 
-
-                               if(userPassword.equals(passLogin)){
-                                   Toast.makeText(Login.this, "Login Successfully.", Toast.LENGTH_SHORT).show();
-                                   Intent go = new Intent(getApplicationContext(), DashBoard.class);
-                                   go.putExtra("userName", userName);
-                                   go.putExtra("userEmail", userEmail);
-                                   go.putExtra("userContact", userContact);
-                                   go.putExtra("userPassword", userPassword);
-                                   startActivity(go);
-                               }else {
-                                   Toast.makeText(Login.this, "Wrong password or not a valid user. Login Failed.", Toast.LENGTH_SHORT).show();
+                               if(emailLogin.equalsIgnoreCase("Admin") && passLogin.equalsIgnoreCase("Admin@1234")){
+                                   Intent admin = new Intent(getApplicationContext(), AdminDashboard.class);
+                                   startActivity(admin);
+                                   Toast.makeText(Login.this, "Admin Login Successfully.", Toast.LENGTH_SHORT).show();
 
                                }
+                               else {
+                                   if(userPassword.equals(passLogin)){
+                                       Toast.makeText(Login.this, "Login Successfully.", Toast.LENGTH_SHORT).show();
+                                       Intent go = new Intent(getApplicationContext(), DashBoard.class);
+                                       go.putExtra("userName", userName);
+                                       go.putExtra("userEmail", userEmail);
+                                       go.putExtra("userContact", userContact);
+                                       go.putExtra("userPassword", userPassword);
+                                       startActivity(go);
+                                   }else {
+                                       Toast.makeText(Login.this, "Wrong password or not a valid user. Login Failed.", Toast.LENGTH_SHORT).show();
 
+                                   }
+                               }
                            }else {
                                Toast.makeText(Login.this, "Wrong password or not a valid user. Login Failed.", Toast.LENGTH_LONG).show();
 

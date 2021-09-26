@@ -24,12 +24,17 @@ public final class ActivityAdminDashboardBinding implements ViewBinding {
   public final RelativeLayout addEmployee;
 
   @NonNull
+  public final RelativeLayout allEmployee;
+
+  @NonNull
   public final ImageView hello;
 
   private ActivityAdminDashboardBinding(@NonNull LinearLayout rootView,
-      @NonNull RelativeLayout addEmployee, @NonNull ImageView hello) {
+      @NonNull RelativeLayout addEmployee, @NonNull RelativeLayout allEmployee,
+      @NonNull ImageView hello) {
     this.rootView = rootView;
     this.addEmployee = addEmployee;
+    this.allEmployee = allEmployee;
     this.hello = hello;
   }
 
@@ -66,13 +71,20 @@ public final class ActivityAdminDashboardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.allEmployee;
+      RelativeLayout allEmployee = ViewBindings.findChildViewById(rootView, id);
+      if (allEmployee == null) {
+        break missingId;
+      }
+
       id = R.id.hello;
       ImageView hello = ViewBindings.findChildViewById(rootView, id);
       if (hello == null) {
         break missingId;
       }
 
-      return new ActivityAdminDashboardBinding((LinearLayout) rootView, addEmployee, hello);
+      return new ActivityAdminDashboardBinding((LinearLayout) rootView, addEmployee, allEmployee,
+          hello);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

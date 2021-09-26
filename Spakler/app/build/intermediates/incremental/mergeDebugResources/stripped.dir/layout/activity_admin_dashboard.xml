@@ -74,6 +74,7 @@
 
         <RelativeLayout
             android:layout_width="wrap_content"
+            android:id="@+id/allEmployee"
             android:layout_height="wrap_content">
 
             <ImageView
@@ -124,7 +125,7 @@
                 android:layout_width="174dp"
                 android:layout_height="162dp"
                 android:layout_marginLeft="220dp"
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="60dp"
                 android:src="@drawable/saloan3" />
 
             <TextView

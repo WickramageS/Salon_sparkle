@@ -1,3 +1,9 @@
+com/example/spakler/model/User.java
+ com.example.spakler.model.User
+com/example/spakler/model/Employee.java
+ com.example.spakler.model.Employee
+com/example/spakler/BuildConfig.java
+ com.example.spakler.BuildConfig
 com/example/spakler/AllEmployeesList.java
  com.example.spakler.AllEmployeesList
 com/example/spakler/databinding/ActivityAllEmployeesListBinding.java
@@ -24,6 +30,7 @@ com/example/spakler/databinding/ActivityBeauticianListBinding.java
 com/example/spakler/AdminDashboard.java
  com.example.spakler.AdminDashboard
  com.example.spakler.AdminDashboard$1
+ com.example.spakler.AdminDashboard$2
 com/example/spakler/databinding/ActivityRegisterBinding.java
  com.example.spakler.databinding.ActivityRegisterBinding
 com/example/spakler/databinding/ActivityMainBinding.java
@@ -55,8 +62,6 @@ com/example/spakler/OnBoardScreen.java
  com.example.spakler.OnBoardScreen$2
  com.example.spakler.OnBoardScreen$3
  com.example.spakler.OnBoardScreen$4
-com/example/spakler/BuildConfig.java
- com.example.spakler.BuildConfig
 com/example/spakler/MainActivity.java
  com.example.spakler.MainActivity
  com.example.spakler.MainActivity$1
@@ -65,8 +70,6 @@ com/example/spakler/databinding/ActivityAddEmployeeBinding.java
  com.example.spakler.databinding.ActivityAddEmployeeBinding
 com/example/spakler/BeauticianList.java
  com.example.spakler.BeauticianList
-com/example/spakler/model/User.java
- com.example.spakler.model.User
 com/example/spakler/adapter_class/AllEmployeesListAdapter.java
  com.example.spakler.adapter_class.AllEmployeesListAdapter
  com.example.spakler.adapter_class.AllEmployeesListAdapter$1
@@ -77,8 +80,6 @@ com/example/spakler/adapter_class/AllEmployeesListAdapter.java
  com.example.spakler.adapter_class.AllEmployeesListAdapter$2$1
  com.example.spakler.adapter_class.AllEmployeesListAdapter$2$2
  com.example.spakler.adapter_class.AllEmployeesListAdapter$myviewholder
-com/example/spakler/model/Employee.java
- com.example.spakler.model.Employee
 com/example/spakler/DashBoard.java
  com.example.spakler.DashBoard
  com.example.spakler.DashBoard$1

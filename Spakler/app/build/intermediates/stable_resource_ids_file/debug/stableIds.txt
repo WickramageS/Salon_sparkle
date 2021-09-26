@@ -1,3 +1,4 @@
+com.example.spakler:id/allEmployee = 0x7f0a0226
 com.example.spakler:layout/select_dialog_multichoice_material = 0x7f0d0079
 com.example.spakler:style/Widget.MaterialComponents.MaterialCalendar.YearNavigationButton = 0x7f1102a9
 com.example.spakler:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f1102c0

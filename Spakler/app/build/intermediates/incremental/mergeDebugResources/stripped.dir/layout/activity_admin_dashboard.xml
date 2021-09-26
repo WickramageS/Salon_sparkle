@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/saloan4"
+    android:orientation="vertical"
+    tools:context=".AdminDashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/hello"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hello"
+            android:layout_marginTop="-60dp"
+            android:fontFamily="sans-serif-black"
+            android:text="ADMIN"
+            android:textColor="#000"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-25dp">
+
+        <RelativeLayout
+            android:id="@+id/addEmployee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/backend" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/image10" />
+
+            <TextView
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="210dp"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="Employee"
+                android:textColor="#d703082b"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/backend"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/image5" />
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="210dp"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="All Employees"
+                android:textColor="#d703082b"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-40dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="390dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/bg2" />
+
+            <ImageView
+                android:layout_width="174dp"
+                android:layout_height="162dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/saloan3" />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="SERVICES"
+                android:textColor="#d703082b"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

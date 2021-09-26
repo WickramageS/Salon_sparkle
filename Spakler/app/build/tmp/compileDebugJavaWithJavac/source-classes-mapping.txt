@@ -1,0 +1,92 @@
+com/example/spakler/AllEmployeesList.java
+ com.example.spakler.AllEmployeesList
+com/example/spakler/databinding/ActivityAllEmployeesListBinding.java
+ com.example.spakler.databinding.ActivityAllEmployeesListBinding
+com/example/spakler/databinding/SinglerowBinding.java
+ com.example.spakler.databinding.SinglerowBinding
+com/example/spakler/ServicesCustomer.java
+ com.example.spakler.ServicesCustomer
+com/example/spakler/AddEmployee.java
+ com.example.spakler.AddEmployee
+ com.example.spakler.AddEmployee$1
+ com.example.spakler.AddEmployee$2
+com/example/spakler/databinding/ActivityLoginBinding.java
+ com.example.spakler.databinding.ActivityLoginBinding
+com/example/spakler/databinding/ActivityDashBoardBinding.java
+ com.example.spakler.databinding.ActivityDashBoardBinding
+com/example/spakler/BeauticianAdapter.java
+ com.example.spakler.BeauticianAdapter
+ com.example.spakler.BeauticianAdapter$myviewholder
+com/example/spakler/databinding/ActivityOnBoardScreenBinding.java
+ com.example.spakler.databinding.ActivityOnBoardScreenBinding
+com/example/spakler/databinding/ActivityBeauticianListBinding.java
+ com.example.spakler.databinding.ActivityBeauticianListBinding
+com/example/spakler/AdminDashboard.java
+ com.example.spakler.AdminDashboard
+ com.example.spakler.AdminDashboard$1
+com/example/spakler/databinding/ActivityRegisterBinding.java
+ com.example.spakler.databinding.ActivityRegisterBinding
+com/example/spakler/databinding/ActivityMainBinding.java
+ com.example.spakler.databinding.ActivityMainBinding
+com/example/spakler/Register.java
+ com.example.spakler.Register
+ com.example.spakler.Register$1
+ com.example.spakler.Register$1$1
+ com.example.spakler.Register$2
+com/example/spakler/EditProfile.java
+ com.example.spakler.EditProfile
+ com.example.spakler.EditProfile$1
+com/example/spakler/databinding/ActivityServicesCustomerBinding.java
+ com.example.spakler.databinding.ActivityServicesCustomerBinding
+com/example/spakler/Login.java
+ com.example.spakler.Login
+ com.example.spakler.Login$1
+ com.example.spakler.Login$2
+ com.example.spakler.Login$2$1
+com/example/spakler/adapter_class/OnboardSliderAdapter.java
+ com.example.spakler.adapter_class.OnboardSliderAdapter
+com/example/spakler/databinding/ActivityAdminDashboardBinding.java
+ com.example.spakler.databinding.ActivityAdminDashboardBinding
+com/example/spakler/databinding/ActivityEditProfileBinding.java
+ com.example.spakler.databinding.ActivityEditProfileBinding
+com/example/spakler/OnBoardScreen.java
+ com.example.spakler.OnBoardScreen
+ com.example.spakler.OnBoardScreen$1
+ com.example.spakler.OnBoardScreen$2
+ com.example.spakler.OnBoardScreen$3
+ com.example.spakler.OnBoardScreen$4
+com/example/spakler/BuildConfig.java
+ com.example.spakler.BuildConfig
+com/example/spakler/MainActivity.java
+ com.example.spakler.MainActivity
+ com.example.spakler.MainActivity$1
+ com.example.spakler.MainActivity$2
+com/example/spakler/databinding/ActivityAddEmployeeBinding.java
+ com.example.spakler.databinding.ActivityAddEmployeeBinding
+com/example/spakler/BeauticianList.java
+ com.example.spakler.BeauticianList
+com/example/spakler/model/User.java
+ com.example.spakler.model.User
+com/example/spakler/adapter_class/AllEmployeesListAdapter.java
+ com.example.spakler.adapter_class.AllEmployeesListAdapter
+ com.example.spakler.adapter_class.AllEmployeesListAdapter$1
+ com.example.spakler.adapter_class.AllEmployeesListAdapter$1$1
+ com.example.spakler.adapter_class.AllEmployeesListAdapter$1$1$1
+ com.example.spakler.adapter_class.AllEmployeesListAdapter$1$1$2
+ com.example.spakler.adapter_class.AllEmployeesListAdapter$2
+ com.example.spakler.adapter_class.AllEmployeesListAdapter$2$1
+ com.example.spakler.adapter_class.AllEmployeesListAdapter$2$2
+ com.example.spakler.adapter_class.AllEmployeesListAdapter$myviewholder
+com/example/spakler/model/Employee.java
+ com.example.spakler.model.Employee
+com/example/spakler/DashBoard.java
+ com.example.spakler.DashBoard
+ com.example.spakler.DashBoard$1
+ com.example.spakler.DashBoard$2
+ com.example.spakler.DashBoard$3
+com/example/spakler/databinding/SliderLayoutViewBinding.java
+ com.example.spakler.databinding.SliderLayoutViewBinding
+com/example/spakler/databinding/SinglerowstylistsBinding.java
+ com.example.spakler.databinding.SinglerowstylistsBinding
+com/example/spakler/databinding/DialogcontentBinding.java
+ com.example.spakler.databinding.DialogcontentBinding
